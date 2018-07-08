@@ -1,6 +1,5 @@
 <?php
 require('header.php');
-require('../model/config.inc.php');
 ?>
 
 <?php

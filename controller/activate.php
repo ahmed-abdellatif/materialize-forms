@@ -26,7 +26,7 @@ if (isset($_GET['x'], $_GET['y'])
 
 } else { // Redirect.
 
-	$url = BASE_URL . 'home.php'; // Define the URL.
+	$url = BASE_URL . '../view/home.php'; // Define the URL.
 	ob_end_clean(); // Delete the buffer.
 	header("Location: $url");
 	exit(); // Quit the script.
